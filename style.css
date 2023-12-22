@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#box{
+  margin: 20px 450px;
+  height: 350px;
+  width: 650px ;
+  background-color: grey;
+  position: relative;
+}
+#a1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gold;
+ 
+}
+#a2{
+  padding: 20px;
+}
+input{
+  /* display: block; */
+  font-size: 1.2rem;
+  /* background-color: gold; */
+  
+}
+label{
+  display: block;
+  font-size: 1.5rem;
+  /* background-color: goldenrod; */
+
+}
+button{
+  position: absolute;
+  right: 45%;
+margin: 20px;
+
+  display: block;
+  font-size: 1.5rem;
+  background-color: gold;
+
+}
+#roundanm{
+  display: none;
+}
+#roundanm{
+  
+  margin: 5px 280px;
+ border: 8px solid rgb(10, 139, 253);
+ border-right:8px solid transparent ;
+  /* background-color: aqua; */
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+  
+animation: move .5s linear  infinite  ;
+}
+
+@keyframes move {
+  0%{
+  transform:rotate(0deg);  }
+  25%{
+    transform: rotate(30deg);
+  }
+  50%{
+    transform:rotate(90deg);
+  }
+  75%{
+    transform:rotate(180deg);
+  }
+ 100%{
+    transform: rotate(360deg);
+  }
+  
+}
+/* div {
+  width: 300px;
+  height: 100px;
+  margin: 25px;
+  padding: 15px;
+  background-color: rgb(22, 4, 145);
+  box-shadow: 4px 4px 2px 2px rgba(184, 90, 90, 0.851);
+} */
+
+/* 
+#a1{
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+
+ }
+ #open{
+    background-color: aqua;
+    padding: 2%;
+   font-size: 2rem;
+   border: 0rem;
+
+   color: rgb(255, 21, 21);
+ }
+ #open:hover{
+    background-color: aquamarine;
+
+ }
+
+
+ .modal{
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;  
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4); 
+ }
+ .modal-content {
+   
+
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    opacity: .5; 
+    position: relative;
+    
+  }
+  .modal-content:hover{
+    opacity: 1;
+  } */
+  /* #myModal{
+    display: flex;
+  } */
+  /* #close{ */
+  /* position: fixed;
+right:25rem; */
+/* position: absolute;
+ right: 0;
+ top: 0; 
+   
+   background-color: red;
+   color: aliceblue;
+   
+   
+  }
+  #close:hover{
+   font-size: 2rem;
+    background-color: black;
+  } */
+/* .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+button {
+    background-color:red;
+    border: none;
+    outline: none;
+    padding: 4px;
+    color: #fff;
+    font-size: 30px;
+    transition: background-color .7s;
+    cursor: pointer;
+    position: relative;
+    opacity: 1;
+    /* animation: move .7s linear 0s infinite forwards; */
+/* }
+button:hover {
+    background-color: green;
+} */ 
+
+/* @keyframes move {
+   0% {
+    background-color: red;
+   }
+   25% {
+    background-color: yellow;
+   }
+   50% {
+    background-color: pink;
+   }
+   75% {
+    background-color: purple;
+   }
+   100% {
+    background-color: red;
+   }
+} */
+
+
+ /* button{
+    background-color: brown;
+ } */
+
+
+ 
