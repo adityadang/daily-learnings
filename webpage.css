@@ -1,0 +1,83 @@
+/* Regular 400 */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+
+
+.header{
+    height: 80px;
+
+    font-family: Permanent Marker;
+    font-size: 2.5rem;
+    display: flex;
+  align-items: center;
+  padding: 0px 50px;
+  justify-content: space-between;
+  background-color:    black;
+
+}
+.menu{
+    display: flex;
+    gap: 12px;
+    list-style: none;
+
+
+
+}
+.logo{
+    color:white;
+}
+.menu li a{
+    color: azure;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.logo{
+    cursor: pointer;
+
+}
+.container{
+    padding: 27px;
+
+   
+    display: flex;
+    justify-content: left;
+    height: calc(100vh - 80px - 30px);
+    background-image: url(https://img.freepik.com/free-photo/shirt-mockup-concept-with-plain-clothing_23-2149448749.jpg?w=996&t=st=1702012647~exp=1702013247~hmac=39680ed59daad4926c53ac1a9c60a55fc458696209c98c97745859583fbc62e8);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.form {
+    width: 37%;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 5%;
+    box-shadow: 2px 2px 7px 4px  rgba(0, 1, 3, 0.587);
+    padding: 30px 20px;
+}
+.feedcen{
+    text-align: center;
+}
+button{
+    margin: 10px 100px;
+padding: 5px 50px;
+}
+.footer{
+    background-color:black;
+    height: 30px;
+    font-size: 1.3rem;
+    text-align: center;
+    color: white;
+}
+.form-group{
+    margin: 15px 40px ;
+}
+
